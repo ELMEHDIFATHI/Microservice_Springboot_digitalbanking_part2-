@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RefreshScope
+
 public class ConfigTestController {
     @Value("${global.params.p1}")
     private int p1;
